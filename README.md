@@ -1,1 +1,125 @@
-# CODSOFT
+# CODSOFT Portfolio html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="portfolio.css">
+  <title>SM Portfolio</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Your Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><STRONG><a href="#about">ABOUT</a></STRONG></li>
+        <li><STRONG><a href="#skills">SKILLS</a></STRONG></li>
+        <li><STRONG><a href="#projects">PROJECT</a></STRONG></li>
+        <li><STRONG><a href="#resume">RESUME</a></STRONG></li>
+        <li><STRONG><a href="#contact">CONTACT</a></STRONG></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="about">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>
+        <h2>
+            <b>
+                <strong>
+                    <br>HI! I'm
+                    <span>
+                        <i>Sadiya Mashayeen</i>
+                    </span>
+                    <br>
+                </strong>
+            </b>
+        </h2>
+    </p>
+</b>
+<p>I am currently in my second year pursuing B. Tech in IT at Shadan Women's College of Engineering & Technology. My academic journey revolves around tackling complex challenges and designing intuitive solutions. Beyond academics, I channel my creativity into the realms of photography and videography, allowing me to capture and convey stories through a visual medium.</p>
+    </div>
+    <div class="about-image">
+      <img src="girl.png" alt="Girl Image">
+    </div>
+  </section>
+  
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">
+        <div class="skill-icon"><b>HTML</b></div>
+      </div>
+      <div class="skill">
+        <div class="skill-icon"><b>CSS</b></div>
+      </div>
+      <div class="skill">
+        <div class="skill-icon"><b>C</b></div>
+      </div>
+      <div class="skill">
+        <div class="skill-icon"><b>C++</b></div>
+      </div>
+      <div class="skill">
+        <div class="skill-icon"><b>AI</b></div>
+      </div>
+      <div class="skill">
+        <div class="skill-icon"><b>Basics of<br> ML</b></br></b></div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="project">
+    <h2>Project</h2>
+    <div class="project">
+      <img src="project.jpg" height="100" alt="Project">
+      <a href="https://syntaxwizard.netlify.app/">
+      <h3>Syntax Wizard</h3>
+      </a>
+      <p><i>Quick Reference for several Programming Languages.</i></p>
+    </div>
+    
+  </section>
+  
+  <section id="my-photos">
+    <h2>
+      <i>Photos I have clicked</i>
+    </h2>
+    <div class="slider-container">
+      <div class="slider">
+         <img src="cat.jpg"  height="200" alt="Photo 1">
+         <img src="hyd.jpg"  height="200" alt="Photo 2">
+         <img src="light.jpg" height="200" alt="Photo 3">
+         <img src="tree.jpg" height="200" alt="Photo 4">
+         <img src="wheel.jpg" height="200" alt="Photo 4">
+      </div>
+         <a href="https://instagram.com/sadiya.mashayeen?igshid=MzRlODBiNWFlZA==">
+         <h2>View All</h2>
+        </a>
+     </div>
+  </section>
+  
+  <div>
+    <section id="resume-contact">
+        <div class="resume-contact-box">
+            <section id="resume">
+                <h2>Resume</h2>
+                <a href="Sadiya Reusume.pdf">DOWNLOAD RESUME</a>
+            </section>
+            <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:smashayeen2312@gmail.com">smashayeen2312@gmail.com</a></p>
+    <p><a href="https://www.linkedin.com/in/sadiya-mashayeen-398a53227?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYLNChrvIRgO9ikz%2FA%2BFQ5Q%3D%3D">
+        <img src="linkedin.png" height="40" alt="LinkedIn" ></a>
+        <a href="https://instagram.com/sadiya.mashayeen?igshid=MzRlODBiNWFlZA=="><img src="instagram.png" height="40" alt="Instagram" ></a></p>
+  </section>
+</div>
+  </section>
+  <footer>
+    <p>&copy; 2023 Sadiya Mashayeen. All rights reserved.</p>
+  </footer>
+</body>
+</html>
